@@ -99,7 +99,7 @@ def main():
     driver.get('http://linkedin.com')
     driver.maximize_window()
     driver.find_element_by_id("session_key").send_keys("aayushmahajan@yahoo.com")
-    driver.find_element_by_id("session_password").send_keys("aayush123!!!")
+    driver.find_element_by_id("session_password").send_keys("pass")
     driver.find_element_by_class_name("sign-in-form__submit-button").click()
     sleep(2)
     driver.get("https://www.linkedin.com/jobs/")
